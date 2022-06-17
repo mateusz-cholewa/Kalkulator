@@ -33,7 +33,7 @@ if __name__ == "__main__":
         print("Wybrałeś dzielenie!")
         num_1 = float(input("Podaj składnik 1: "))
         num_2 = float(input("Podaj składnik 2: "))
-        if num_2 > 0:
+        if num_2 != 0:
             logging.info(f"Dzielę {num_1} i {num_2}")
             div = (num_1 / num_2)
             print(f"Wynik to {div}")
